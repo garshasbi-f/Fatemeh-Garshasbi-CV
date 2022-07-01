@@ -1,0 +1,89 @@
+body{
+    font-family: 'iranyekan' !important;
+    background-color: #e7f1ff29 !important;
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    src: url('./font/iranyekanwebmediumfanum.ttf') format('ttf'),
+    url('./font/iranyekanwebmediumfanum.eot') format('eot'),
+    url('./font/iranyekanwebmediumfanum.woff') format('woff');
+url('./font/iranyekanwebmediumfanum.svg') format('svg');
+}
+.accordion-button::after {
+    float: initial!important;
+    position: absolute!important;
+    left: 23px!important;
+}
+
+.content{
+    margin: 0px 10px 0px 10px;
+}
+
+.font-12{
+    font-size: 12px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-20{
+    font-size: 20px;
+}
+
+.grey{
+    color: #515151;
+}
+.blue{
+    color: #0c63e4;
+}
+
+.project-btn{
+    border: 2px solid #a4a4a4;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    width: 169px;
+    color: #727272;
+    padding: 3px;
+}
+
+.person{
+    margin-top: 100px;
+    background-color: white;
+}
+
+.personImg{
+    width: 160px;
+    height: 160px;
+}
+
+.personInfo{
+    margin-top: 60px;
+}
+
+.about{
+    justify-content: right;
+    text-align: justify;
+}
+
+.imgIcon{
+    height: 55px;
+    width: 55px
+}
+
+.skill{
+    padding-right: 70px;
+}
+
+
+@media screen and (min-width: 860px) {
+    .content{
+        margin: 0px 200px 0px 200px;
+    }
+}
